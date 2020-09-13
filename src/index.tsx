@@ -1,10 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Input from './Input';
-import Styled from 'styled-components';
-import Password from './Password';
-import Radio from './Radio';
-import Select from './Select';
+import React from "react";
+import ReactDOM from "react-dom";
+import Input from "./Input";
+import Styled from "styled-components";
+import Password from "./Password";
+import Radio from "./Radio";
+import Select from "./Select";
+import CheckBox from "./CheckBox";
 
 const Wrapper = Styled.div`
 	width: 100vw;
@@ -22,12 +23,13 @@ const Text = Styled.h1`
 `;
 
 ReactDOM.render(
-	<Wrapper>
-		<Text>フォーム</Text>
-		<Input />
-		<Password />
-		<Radio />
-		<Select />
-	</Wrapper>,
-	document.getElementById('root')
+  <Wrapper>
+    <Text>フォーム</Text>
+    <Input />
+    <Password />
+    <Radio />
+    <Select />
+    <CheckBox />
+  </Wrapper>,
+  document.getElementById("root")
 );
