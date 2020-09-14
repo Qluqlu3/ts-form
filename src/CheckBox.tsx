@@ -30,6 +30,10 @@ export default class CheckBox extends React.Component<
       <Wrapper>
         <FormCheckBox type="checkbox" />
         AAA
+        <FormCheckBox type="checkbox" />
+        BBB
+        <FormCheckBox type="checkbox" />
+        CCC
       </Wrapper>
     );
   }
