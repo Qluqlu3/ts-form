@@ -5,10 +5,11 @@ const Wrapper = Styled("div")`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+  margin-top: 10px;
 `;
 
 const FormCheckBox = Styled("input")`
-
+  margin-right: 5px;
 `;
 
 export interface ICheckBoxProps {}

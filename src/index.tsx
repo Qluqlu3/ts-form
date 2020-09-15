@@ -6,13 +6,14 @@ import Password from "./Password";
 import Radio from "./Radio";
 import Select from "./Select";
 import CheckBox from "./CheckBox";
+import Button from "./Button";
 
 const Wrapper = Styled.div`
 	width: 100vw;
 	height: 100vh;
 	margin: 0px;
 	padding: 10px;
-	background: #999;
+	background: #aaa;
 `;
 
 const Text = Styled.h1`
@@ -30,6 +31,7 @@ ReactDOM.render(
     <Radio />
     <Select />
     <CheckBox />
+    <Button />
   </Wrapper>,
   document.getElementById("root")
 );
