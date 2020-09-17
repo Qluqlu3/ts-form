@@ -13,7 +13,7 @@ const Wrapper = Styled.div`
 	height: 100vh;
 	margin: 0px;
 	padding: 10px;
-	background: #aaa;
+	background: #ccc;
 `;
 
 const Text = Styled.h1`
