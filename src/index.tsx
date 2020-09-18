@@ -7,6 +7,7 @@ import Radio from "./Radio";
 import Select from "./Select";
 import CheckBox from "./CheckBox";
 import Button from "./Button";
+import { TextInput } from "./TextInput";
 
 const Wrapper = Styled.div`
 	width: 100vw;
@@ -32,6 +33,7 @@ ReactDOM.render(
     <Select />
     <CheckBox />
     <Button />
+    <TextInput />
   </Wrapper>,
   document.getElementById("root")
 );
